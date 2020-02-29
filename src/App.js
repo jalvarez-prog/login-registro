@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
-          <Link className="navbar-brand" to={"/sign-in"}>positronX.io</Link>
+          <Link className="navbar-brand" to={"/sign-in"}>PYME-Network</Link>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
@@ -27,6 +27,7 @@ function App() {
 
       <div className="auth-wrapper">
         <div className="auth-inner">
+        <img src="homero.png"/>
           <Switch>
             <Route exact path='/' component={Login} />
             <Route path="/sign-in" component={Login} />
